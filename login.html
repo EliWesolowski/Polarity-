@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<title>Polarity</title>
+<link rel="stylesheet" type="text/css" href="/static/css/login.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Public+Sans&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+
+<header>
+  <nav> 
+    <logo style="float: left"><a href='/'>Polarity</a></logo>
+    <ul>
+      <li><a href="/bot">Explore</a></li>
+      <li class="active"><a href="/login">Log In</a></li>
+      <li><a href="/signup">Sign Up</a></li>
+      <li><a href="/">Home</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="log-in">
+  <p> Log In </p></div>
+
+<div class="signupFrm">
+  <form action="/logup" class="form" method ="post">
+
+      <div class="email"> 
+      <input type="text" class="input" name = "email" placeholder="Email">
+      <label for="" class="label"></label>
+      </div>
+
+      <div class="password">
+      <input type="text" class="input" name = "password" placeholder="Password">
+      <label for="" class="label"></label>
+      </div>
+      
+      <div class="submitBtn">
+      <input type="submit" class="input" value="Create Account">
+      </div>
+    </form>
+
+</html>

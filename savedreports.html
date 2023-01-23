@@ -1,0 +1,11 @@
+<h1>Saved Reports</h1>
+<table>
+    <tr>
+        <th>Report Name</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+        <td>{{ row[0] }}</td>
+    </tr>
+    {% endfor %}
+</table>

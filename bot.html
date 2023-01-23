@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Polarity</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/bot.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Public+Sans&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<header>
+  <nav> 
+    <logo style="float: left"><a href='/'>Polarity</a></logo>
+    <ul>
+      <li class="active"><a href="/bot">Explore</a></li>
+      <li><a href="/login">Log In</a></li>
+      <li><a href="/signup">Sign Up</a></li>
+      <li><a href="/">Home</a></li>
+    </ul>
+  </nav>
+</header>
+
+</body>
+
+<div class="start">
+  <p>
+    Enter a topic, account, or hashtag to get started.
+  </p>
+</div>
+
+<div class="signupFrm">
+
+  <form method="POST" action="/search" class="form">
+
+<div class="enterText"> 
+  <input type="text" class="input" name = "query" placeholder="Enter Text">
+  <label for="query" class="label"></label>
+ </div>
+
+</form>
+</div>
+
+

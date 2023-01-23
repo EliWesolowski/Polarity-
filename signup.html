@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<title>Polarity</title>
+<link rel="stylesheet" type="text/css" href="/static/css/signup.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Public+Sans&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+
+<header>
+  <nav>
+    <logo style="float: left"><a href='/'>Polarity</a></logo>
+    <ul>
+      <li><a href="/bot">Explore</a></li>
+      <li><a href="/login">Log In</a></li>
+      <li class="active"><a href="/signup">Sign Up</a></li>
+      <li><a href="/">Home</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+  <div class="Start">
+    <p>START FOR FREE</p>
+  </div>
+
+  <div class="Create">
+    <p>Create New Account.</p>
+  </div>
+
+  <div class="Already"> 
+  <p>Already a member?<a class="login2" href="/login"> Log In</a></p>
+  </div>
+</body>
+
+<div class="signupFrm">
+  <form action="/register" class="form" method = "post">
+      <div class="firstName"> 
+      <input type="text" name = "first_name" class="input" placeholder="First Name">
+      <label for="" class="label"></label>
+      </div>
+ 
+
+   
+      <div class="lastName">
+      <input type="text" name ="last_name" class="input" placeholder="Last Name">
+      <label for="" class="label"></label>
+      </div>
+   
+
+    
+      <div class="email">
+      <input type="text" name="email"class="input" placeholder="Email">
+      <label for="" class="label"></label>
+      </div>
+
+    
+   
+      <div class="password">
+      <input type="password" name ="password" class="input" placeholder="Password">
+      <label for="" class="label"></label>
+      </div>
+   
+
+    <div class="submitBtn">
+    <input type="submit" class="input" value="Create Account">
+    </div>
+  </form>
+</div>
+
