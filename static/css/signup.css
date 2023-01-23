@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  font-family: Unbounded;
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(36, 36, 36, 0.75);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #28AAF3;
+}
+
+logo {
+  font-family: Unbounded;
+  font-size: 30px;
+  color: #28AAF3;
+  padding: 14px 20px;
+  text-align: center;
+  background-color: rgba(36, 36, 36, 0.75);
+}
+
+logo a {
+  color: #28AAF3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+
+  position: absolute;
+  width: 162px;
+  height: 44px;
+  left: 1350px;
+  top: 20px;
+ }
+
+ a {
+    color: white;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: #0A1628;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Start {
+    position: absolute;
+    width: 316px;
+    height: 55px;
+    left: 157px;
+    top: 215px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #D6CDCD;
+}
+
+.Create {
+    position: absolute;
+    width: 720px;
+    height: 74px;
+    left: 157px;
+    top: 262px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #FFFFFF;
+}
+
+.Already {
+    position: absolute;
+    width: 500px;
+    height: 48px;
+    left: 157px;
+    top: 354px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #D6CDCD;
+}
+
+.login2 {
+    color: #5B7DF4;
+}
+
+.form {
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+ 
+
+  .label {
+    color: white;
+  }
+
+  .firstName {
+    position: absolute;
+    width: 286px;
+    height: 72px;
+    left: 139px;
+    top: 451px;
+
+    background: #3D5478;
+    border-radius: 12px;
+  }
+
+  .lastName {
+    position: absolute;
+    width: 286px;
+    height: 72px;
+    left: 470px;
+    top: 451px;
+
+    background: #3D5478;
+    border-radius: 12px;
+  }
+
+  .email {
+    position: absolute;
+    width: 620px;
+    height: 72px;
+    left: 139px;
+    top: 568px;
+
+    background: #3D5478;
+    border-radius: 12px;
+  }
+  
+  .password {
+    position: absolute;
+    width: 620px;
+    height: 72px;
+    left: 139px;
+    top: 693px;
+
+    background: #3D5478;
+    border-radius: 12px;
+  }
+
+ .input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    border:0;
+    z-index: 15;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+ }
+
+ .submitBtn {
+  position: absolute;
+  width: 293px;
+  height: 72px;
+  left: 137px;
+  top: 818px;
+
+  background: #5377EE;
+  border-radius: 15px;
+  cursor: grab;
+ }
+
+ .submitBtn:hover {
+  background-color: #111;
+ }
